@@ -5,29 +5,31 @@ Feynman is mostly qualitative in this chapter, but gives exact values of atom si
 * Angle between hydrogen atoms in water: 105 deg 3 minutes
 * Distance between center of hydrogen atom and center of oxygen atom in water: 0.957 Å
 
-The images look rather crowded.
-Here I try to estimate how they should look:
+He draws images of water and vapor. 
+Let's check if they are drawn to scale.
 
 * What is the mean distance between molecules in liquid water?
 * What is the mean distance between molecules in air (ideal gas)
 
-## Average distance in water
+## Average molecular distance in water
 
 * Molecular weight of water: 18 g/mol.
-* Density of water: 1 g/cm^3
+* Density of water: 1 g/cm³
 * 1 mol is 6E23 molecules
 
-This gives $ 18* 6E23 = 10.8 E24 
+Lets find the "effective volume" of a water molecule:
 
 $$ 18 g/mol / 1 g/cm³ = 18 cm³ / mol = 18 E-6 m³ / 6E23 molecules = 3E-29 m³ / molecule $$ 
 
-If we have molecules separated by 1m in each dimension, we get a density of 1 / m³. So to get an estimate of the average distance between molecules, we take the cube root:
+If we have a grid of molecules separated by 1 m in each dimension, we get a density of 1 / m³. 
+So to get an estimate of the average distance between molecules, we take the cube root of the effective volume:
 
 $$ (3 E-29 m)⁻³ = 3.1 E-10 m $$
 
-So an average distance of 3 Å .
+So an average distance of 3 Å which is 3 times the atom diameter.
+So the image is not totally off.
 
-## Average distance in gas
+## Average molecular distance in gas
 
 The ideal gas equation says
 
@@ -35,15 +37,15 @@ $$ PV = nRT $$
 
 where 
 
-* P pressure: N/m²
-* V volume: m³
-* n number of molecules: mol
-* R gas constant: 8.31 J/K/mol
-* T absolute temperature: K
+* P is pressure: N/m²
+* V is volume: m³
+* n is number of molecules: mol
+* R is gas constant: 8.31 J/K/mol
+* T is absolute temperature: K
 
 So in 1 m³ at 1 atm = 1E5 N/m² at 28C = 300K, we have
 
-$$ n = 1E5 N/m² * 1 m³ / 300 K / (8.31 J/K/mol) = 40 mol = 2.4 E25 molecules $$
+$$ n = 1E5 N/m² * 1 m³ / (300 K) / (8.31 J/K/mol) = 40 mol = 2.4 E25 molecules $$
 
 or 
 
@@ -68,6 +70,11 @@ $$ 13E6 / a = a / 1E-10 => a² = 13E-4 => a = \sqrt(13E-4) = 0.036 m = 3.6 cm $$
 
 So it is actually not a very big apple.
 
+The scale factor is 3.6E8.
+
+# Not in the lecture
+
+Some related thoughts.
 
 ## Molarity of water
 
@@ -75,7 +82,7 @@ As we have 1E3 g/L of water, we get a molarity of pure water of 55.6 M
 
 $$ 1E3 g/L / 18 g/mol = 55.6 mol/L = 55.6 M $$
 
-### pH
+## pH
 
 The auto hydrolysis of water give as pH of 7, meaning a concentration of "H+" of 1E-7 M = 0.1 µM.
 
@@ -84,7 +91,7 @@ The population of Europe (EU) is about 450E6. So if people were water about 1 in
 
 On the other hand, at pH 3 = 1mM "H+", it is 1 out of 55E3, so more like 1 in a large city. But still quite rare.
 
-# Thoughts on teaching
+## Thoughts on teaching
 
 Students need an understanding of sizes and units.
 
