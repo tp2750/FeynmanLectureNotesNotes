@@ -84,7 +84,7 @@ The population of Europe (EU) is about 450E6. So if people were water about 1 in
 
 On the other hand, at pH 3 = 1mM "H+", it is 1 out of 55E3, so more like 1 in a large city. But still quite rare.
 
-# Thoughts on education
+# Thoughts on teaching
 
 Students need an understanding of sizes and units.
 
